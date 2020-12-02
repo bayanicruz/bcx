@@ -1,0 +1,2 @@
+# bcx
+sfdx-cli plugin
