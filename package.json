@@ -45,8 +45,20 @@
     "commands": "./src/commands",
     "bin": "sfdx",
     "topics": {
-      "hello": {
-        "description": "Commands to say hello."
+      "hello:org": {
+        "description": "Plugins generate default command"
+      },
+      "bcx:org:create": {
+        "description": "Create Scratch org"
+      },
+      "bcx:org:setdefault": {
+        "description": "Assign defaults"
+      },
+      "bcx:pkg:install": {
+        "description": "Install packages"
+      },
+      "bcx:hello": {
+        "description": "Says hello"
       }
     },
     "devPlugins": [
