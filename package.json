@@ -42,8 +42,8 @@
   ],
   "license": "MIT",
   "oclif": {
-    "commands": "./src/commands",
-    "bin": "sfdx",
+    "commands": "./lib/commands",
+    "bin": "bcx",
     "topics": {
       "hello:org": {
         "description": "Plugins generate default command"
